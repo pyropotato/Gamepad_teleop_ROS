@@ -11,4 +11,5 @@ Node to publish Twist messages taking input from a gamepad
 # Requirements:
 
 ROS joy package should be running
+
 The node subscribes to the joy node. Install and run it first.
