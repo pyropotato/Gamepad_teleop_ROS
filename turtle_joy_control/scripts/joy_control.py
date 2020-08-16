@@ -13,6 +13,7 @@ def move(joy_data):
     global angular_speed
     
     vel_msg = Twist()
+    # 6 and 7 refers to D-PAD input
     if joy_data.axes[7] == 1:
         linear_speed += 1
     elif joy_data.axes[7] == -1:
@@ -23,6 +24,7 @@ def move(joy_data):
         angular_speed += 1
 
     vel_msg = Twist()
+    # 1 and 3 refers to the thumb stick input
     vel_msg.linear.x = (joy_data.axes[1])*linear_speed
     vel_msg.linear.y = 0
     vel_msg.linear.z = 0
