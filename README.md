@@ -1,5 +1,5 @@
 # Gamepad_teleop_ROS
-Node to publish Twist messages taking input from a gamepad
+Node to publish Twist messages to '/cmd_vel' topic, taking input from a gamepad
 
 # How to use:
 1. Put the folder into the /src folder in the catkin workspace
