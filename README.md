@@ -19,6 +19,7 @@ The node subscribes to the joy node. Install and run it first.
 1. D-Pad is used to increase/decrease the maximum linear/angular speed.
   
   Up/Down - Linear speed
+  
   Left/Right - Angular speed
   
 2. Thumb sicks are used to control direction.
