@@ -2,7 +2,7 @@
 import rospy
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import Joy 
-PI = 3.1415926535897
+
 #rospy.set_param('joy_node/dev', '/dev/input/js1')
 
 linear_speed = 5
